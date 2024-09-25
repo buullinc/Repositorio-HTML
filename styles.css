@@ -1,5 +1,5 @@
 .fondo {
-    background-color: brown;
+    background-color: rgba(212, 0, 255, 0.397);
 }
 
 .miTexto{
@@ -29,4 +29,18 @@
     color: black;
     font-family: cursive;
     background-color: dimgrey;
+}
+
+.imgfondo{
+    background-image: url(./biblioteca.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100px;
+}
+
+p {
+    font-size: 20px;
+    color: aliceblue;
 }
