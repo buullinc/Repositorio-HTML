@@ -1,0 +1,32 @@
+.fondo {
+    background-color: brown;
+}
+
+.miTexto{
+    font-size: 70px;
+    color: aliceblue;
+    font-family: 'Arial', sans-serif;
+    background-color: #250909ad;
+    margin-top: auto;
+}
+
+.miTexto2{
+    font-size: medium;
+    color: aliceblue;
+    font-family: cursive;
+    background-color: dimgrey;
+    
+}
+
+.miImagen{
+    width: 300px;
+    height: auto;
+}
+
+
+.miTexto3{
+    font-size: 50px;
+    color: black;
+    font-family: cursive;
+    background-color: dimgrey;
+}
