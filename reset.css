@@ -1,0 +1,47 @@
+/* reset.css */
+
+/* Elimina márgenes y padding de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluye el padding y el borde en el cálculo del ancho y alto */
+}
+
+/* Elimina el estilo de lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Elimina el subrayado de los enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Establece el ancho del 100% para imágenes */
+img {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Configuración de tablas */
+table {
+    border-collapse: collapse; /* Colapsa bordes */
+    width: 100%; /* Ancho de la tabla */
+}
+
+/* Establece que los elementos de bloque tomen el 100% de su contenedor */
+header, footer, main, section, article, aside {
+    display: block;
+}
+
+/* Establece un estilo base para elementos de formulario */
+input, button, textarea, select {
+    font-family: inherit; /* Hereda la fuente del contenedor */
+    font-size: inherit; /* Hereda el tamaño de la fuente */
+    line-height: inherit; /* Hereda el alto de línea */
+}
+
+/* Opcional: ocultar el cuadro de foco en enlaces (pero considera la accesibilidad) */
+a:focus {
+    outline: none; /* Se recomienda ser consciente de la accesibilidad al eliminar el foco */
+}
